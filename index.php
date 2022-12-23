@@ -1,7 +1,6 @@
 <?php 
 
 require 'vendor/autoload.php';
-
-use Src\Car;
+require 'src/Car.php';
 
 $car = new Car();
