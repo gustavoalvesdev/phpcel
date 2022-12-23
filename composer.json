@@ -1,0 +1,25 @@
+{
+    "name": "gusta/coderexperts",
+    "description": "PHP OO",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "gustavoalvesdev",
+            "email": "gustavoalvesdasilva@outlook.com"
+        }
+    ],
+    "require": {
+        "phpdocumentor/phpdocumentor": "2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "phpdocumentor/unified-asset-installer": true
+        }
+    }
+}
